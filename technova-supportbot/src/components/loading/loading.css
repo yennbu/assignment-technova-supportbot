@@ -1,0 +1,13 @@
+.loading {
+    color: white;
+    font-family: "Share Tech", sans-serif;
+    font-size: 2rem;
+    margin-left: 10%;
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}

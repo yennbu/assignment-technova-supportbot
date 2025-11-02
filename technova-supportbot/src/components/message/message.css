@@ -1,0 +1,48 @@
+.message-row {
+    display: flex;
+    margin-bottom: 1rem;
+    font-family: "Roboto", sans-serif;
+    
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1rem;
+}
+
+.message-row.own {
+    justify-content: flex-end;
+}
+
+.message-row.bot {
+    justify-content: flex-start;
+}
+
+.message-bubble {
+    max-width: 60%;
+    min-width: 15rem;
+    padding: 1rem 0.5rem;
+    border-radius: 15px;
+
+}
+
+.message-bubble p {
+    margin: 0;
+}
+
+.message-row.own .message-bubble {
+    background-color: #1a6cae;
+    color: white;
+}
+
+.message-row.bot .message-bubble {
+    background-color: #d4f5fe;
+    color: black;
+}
+
+.sender {
+    font-size: 0.75em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+    opacity: 0.7;
+}
